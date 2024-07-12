@@ -1,9 +1,47 @@
+body {
+   background-color: #000 !important;
+   color: #fff !important;
+   font-family: "Raleway", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+   font-style: normal;
+   font-variation-settings:
+      "wdth" 100;
+   margin: 0;
+   padding: 0;
+}
+
+footer {
+   background-color: #0dcaf0;
+}
+
+#aboutme,
+#featured {
+   width: 90%;
+}
+
+#contact {
+   background-color: #0f0f0f;
+}
+
+.modal-title,
+.modal-body {
+   color: black;
+}
+
+.card-img-top {
+   height: 10rem;
+   object-fit: cover;
+}
+
+
+
 .navbar-transparent {
    background-color: transparent;
    transition: background-color 0.5s ease;
 }
 
 .navbar-solid {
-   background-color: #f8f9fa;
+   background-color: #0dcaf0;
    transition: background-color 0.5s ease;
 }
